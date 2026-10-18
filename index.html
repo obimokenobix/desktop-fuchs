@@ -1,0 +1,1003 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Desktop-Fuchs — Ein bisschen wilder</title>
+<meta name="description" content="Desktop-Fuchs: ein kleiner Fuchs, der über deinen Windows-Desktop läuft, auf Fenstern sitzt und deiner Maus folgt. Kostenlos.">
+<meta property="og:title" content="Desktop-Fuchs — Dein Desktop. Ein bisschen wilder.">
+<meta property="og:description" content="Ein kleiner Fuchs für deinen Windows-Desktop. Kostenlos herunterladen.">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<style>
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap");
+
+/* desktopfuchs. — helle Creme-Flaeche, dunkles Oliv-Schwarz, Fuchs-Orange */
+:root {
+  --bg: #f6f4ee;
+  --bg-soft: #ecece2;
+  --card: #efede5;
+  --ink: #20241d;
+  --ink-2: #4d5248;
+  --muted: #7c8076;
+  --line: #dcdbd1;
+  --fox: #ec7a3a;
+  --fox-soft: #f6e6da;
+  --leaf: #6f8a5b;
+  --sky: #dfe7ef;
+  --dark: #262a22;
+  --font: "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --wrap: 1180px;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+img, canvas { max-width: 100%; display: block; }
+a { color: inherit; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--fox); outline-offset: 3px; border-radius: 6px; }
+
+.wrap {
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding-left: max(20px, env(safe-area-inset-left, 0px));
+  padding-right: max(20px, env(safe-area-inset-right, 0px));
+}
+
+.eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.eyebrow .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--leaf); }
+
+h1, h2, h3 { margin: 0; text-wrap: balance; letter-spacing: -0.045em; font-weight: 600; }
+h2 { font-size: clamp(34px, 5vw, 56px); line-height: 1.05; }
+h3 { font-size: 21px; letter-spacing: -0.02em; }
+
+/* ---------------------------------------------------------------- Kopf */
+.top { border-bottom: 1px solid var(--line); }
+.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding-block: 28px; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; font-size: 26px; font-weight: 700; letter-spacing: -0.04em; }
+.brand b { color: var(--fox); }
+.brand-mark { width: 40px; height: 40px; border-radius: 10px; background: var(--fox); display: grid; place-items: center; }
+.brand-mark svg { width: 26px; height: 26px; }
+.nav { display: flex; align-items: center; gap: 36px; }
+.nav a { text-decoration: none; font-weight: 600; font-size: 16px; }
+.nav a:hover { color: var(--fox); }
+.btn-ghost {
+  display: inline-flex; align-items: center; gap: 28px;
+  border: 1px solid #cfcfc4; border-radius: 6px; padding: 14px 20px;
+  background: transparent;
+}
+.btn-ghost:hover { border-color: var(--ink); color: var(--ink) !important; }
+
+/* ---------------------------------------------------------------- Hero */
+.hero { overflow-x: clip; }
+.hero .wrap { display: grid; grid-template-columns: 1.1fr 1fr; gap: 64px; align-items: center; padding-block: 110px 80px; }
+.hero h1 { font-size: clamp(44px, 7vw, 100px); line-height: 1.02; letter-spacing: -0.06em; margin: 26px 0 34px; }
+.hero h1 .l { display: block; white-space: nowrap; }
+.hero h1 em { font-style: normal; color: var(--fox); }
+.lead { font-size: 19px; line-height: 1.75; color: var(--ink-2); max-width: 32em; margin: 0 0 34px; }
+
+.btn-fox {
+  text-decoration: none;
+  display: inline-flex; align-items: center; gap: 16px;
+  background: var(--fox); color: #24170e; border: 0; border-radius: 4px;
+  padding: 20px 26px; font-weight: 700; font-size: 17px; cursor: pointer;
+  transition: transform .15s ease, background .15s ease;
+}
+.btn-fox:hover { background: #f08a4e; transform: translateY(-1px); }
+.btn-fox:active { transform: translateY(1px); }
+.btn-fox .arrow { margin-left: 18px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 10px; margin-top: 14px; font-size: 14px; color: var(--muted); }
+.meta span + span::before { content: "·"; margin-right: 10px; }
+.status { min-height: 1.6em; margin-top: 10px; font-size: 14px; font-weight: 600; color: var(--leaf); }
+.status.warn { color: #b4561e; }
+
+/* Vorschau-Fenster */
+.mock-wrap { position: relative; padding-bottom: 40px; }
+.mock {
+  background: #f3f2ec; border: 1px solid #d9d8ce; border-radius: 14px;
+  box-shadow: 0 30px 60px -30px rgba(40, 45, 30, .35);
+  transform: rotate(1.6deg); overflow: hidden;
+}
+.mock-bar { display: flex; align-items: center; gap: 12px; padding: 12px 18px; font-size: 12px; color: var(--muted); }
+.mock-bar .dots { display: flex; gap: 5px; }
+.mock-bar .dots i { width: 7px; height: 7px; border-radius: 50%; background: #b7b6ab; }
+.mock-bar .title { flex: 1; text-align: center; }
+.screen { position: relative; aspect-ratio: 16 / 11; background: var(--sky); overflow: hidden; }
+.screen .sun { position: absolute; right: 7%; top: 9%; width: 30%; aspect-ratio: 1; border-radius: 50%; background: #e3ebdd; }
+.screen .hill { position: absolute; left: -10%; right: -10%; bottom: -36%; height: 60%; border-radius: 50%; background: #cfdac6; }
+.screen .hill.two { left: 30%; right: -30%; bottom: -44%; background: #bccbb2; }
+.note {
+  position: absolute; left: 9%; top: 18%; width: 52%;
+  background: #f8f7f2; border: 1px solid #dad9cf; border-radius: 6px;
+  box-shadow: 0 10px 24px -14px rgba(40, 45, 30, .35);
+  transform: rotate(-2deg);
+}
+.note-bar { display: flex; justify-content: space-between; padding: 8px 12px; font-size: 11px; color: var(--muted); border-bottom: 1px solid #e4e3da; }
+.note-body { padding: 18px 20px 22px; }
+.note-body small { font-size: 10px; letter-spacing: .22em; text-transform: uppercase; color: var(--muted); }
+.note-body p { margin: 6px 0 14px; font-size: clamp(16px, 2vw, 25px); line-height: 1.25; font-weight: 600; letter-spacing: -0.03em; }
+.note-body .ln { height: 5px; border-radius: 3px; background: #e2e1d8; margin-top: 7px; width: 92%; }
+.note-body .ln + .ln { width: 64%; }
+#stage { position: absolute; inset: 0; width: 100%; height: 100%; cursor: pointer; touch-action: manipulation; }
+.screen .tag { position: absolute; bottom: 12px; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; color: #5a6352; pointer-events: none; }
+.screen .tag.l { left: 18px; }
+.screen .tag.r { right: 18px; letter-spacing: 0; text-transform: none; font-size: 13px; }
+.mock-foot { display: flex; align-items: center; gap: 10px; padding: 12px 18px; font-size: 13px; color: var(--ink-2); }
+.mock-foot i { width: 6px; height: 6px; border-radius: 50%; background: var(--leaf); }
+.sticker {
+  position: absolute; right: 2%; bottom: 0; background: #fff; border: 1px solid #e3e2d9;
+  border-radius: 4px; padding: 14px 20px; font-size: 13px;
+  box-shadow: 0 14px 30px -18px rgba(40, 45, 30, .45);
+  transform: rotate(-3deg); display: flex; gap: 12px; align-items: center;
+}
+.sticker b { color: var(--fox); }
+
+/* Drei Merkmale */
+.facts .wrap { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.facts ul { list-style: none; margin: 0; padding: 26px 0; display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+.facts li { display: flex; gap: 14px; align-items: baseline; color: var(--ink-2); }
+.facts li span { font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+/* ---------------------------------------------------------------- Fuchs-Arten */
+.section { padding-block: 110px; }
+.sec-head { display: flex; justify-content: space-between; align-items: flex-end; gap: 30px; flex-wrap: wrap; margin-bottom: 52px; }
+.sec-head h2 { margin-top: 18px; }
+.sec-head .side { font-size: 15px; color: var(--ink-2); text-align: right; margin: 0; line-height: 1.8; }
+
+.kinds { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.kind {
+  text-align: left; cursor: pointer; background: var(--card); border: 1px solid #e2e1d8; border-radius: 6px;
+  padding: 20px 22px 24px; display: flex; flex-direction: column; gap: 18px;
+  transition: border-color .2s ease, background .2s ease, transform .2s ease;
+}
+.kind:hover { transform: translateY(-3px); border-color: #cfcfc3; }
+.kind .no { font-size: 12px; color: var(--muted); letter-spacing: .08em; font-variant-numeric: tabular-nums; }
+.kind canvas { width: 100%; aspect-ratio: 5 / 3; background: #d3dbe0; }
+.kind .row { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.kind strong { display: block; font-size: 20px; letter-spacing: -0.02em; font-weight: 600; }
+.kind small { color: var(--ink-2); font-size: 13px; }
+.kind .go { width: 30px; height: 30px; border-radius: 50%; border: 1px solid #c9c9be; display: grid; place-items: center; font-size: 13px; flex: none; }
+.kind[aria-pressed="true"] { background: var(--fox-soft); border-color: #e9a47a; }
+.kind[aria-pressed="true"] .go { background: var(--fox); border-color: var(--fox); color: #fff; }
+.kind[aria-pressed="true"] canvas { background: #e2d9d0; }
+.picked { margin: 20px 0 0; text-align: right; font-size: 14px; color: var(--ink-2); }
+
+/* ---------------------------------------------------------------- Schritte */
+.steps-band { background: var(--bg-soft); border-top: 1px solid var(--line); }
+.pill { border: 1px solid #b9c4ad; border-radius: 999px; padding: 10px 18px; font-size: 14px; color: #4f5f42; white-space: nowrap; }
+.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 60px; counter-reset: s; }
+.step .num { width: 40px; height: 40px; border-radius: 50%; border: 1px solid #b9c4ad; display: grid; place-items: center; font-size: 14px; color: #4f5f42; margin-bottom: 40px; }
+.step h3 { margin-bottom: 14px; }
+.step p { margin: 0; color: var(--ink-2); line-height: 1.85; }
+.step p b { color: var(--ink); font-weight: 600; }
+.foot-note { margin-top: 60px; padding-top: 22px; border-top: 1px solid var(--line); font-size: 14px; color: var(--ink-2); }
+
+/* ---------------------------------------------------------------- Deine Regeln */
+.rules .wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 90px; align-items: center; }
+.studio { background: var(--card); border: 1px solid #e2e1d8; border-radius: 12px; padding: 26px; }
+.studio canvas { width: 100%; aspect-ratio: 16 / 9; background: var(--sky); border-radius: 6px; }
+.studio-ctrl { display: grid; gap: 16px; margin-top: 20px; }
+.swatches { display: flex; flex-wrap: wrap; gap: 10px; }
+.sw {
+  width: 34px; height: 34px; border-radius: 50%; border: 2px solid #fff; cursor: pointer;
+  box-shadow: 0 0 0 1px #cfcfc4; padding: 0;
+}
+.sw[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--ink); }
+.ctrl-row { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; font-size: 14px; color: var(--ink-2); }
+.ctrl-row label { display: flex; align-items: center; gap: 12px; flex: 1; min-width: 200px; }
+.ctrl-row input[type="range"] { flex: 1; accent-color: var(--fox); }
+.btn-small { border: 1px solid #c9c9be; background: #f8f7f2; border-radius: 6px; padding: 9px 14px; cursor: pointer; font-size: 14px; font-weight: 600; }
+.btn-small:hover { border-color: var(--ink); }
+.studio .cap { text-align: center; font-size: 13px; color: var(--muted); margin: 16px 0 0; }
+.rules h2 { margin: 18px 0 22px; }
+.rules .lead { font-size: 17px; }
+.points { list-style: none; margin: 0; padding: 0; }
+.points li { display: grid; grid-template-columns: 36px 1fr; padding: 22px 0; border-bottom: 1px solid var(--line); }
+.points li:first-child { padding-top: 6px; }
+.points span { font-size: 13px; color: var(--muted); padding-top: 3px; }
+.points strong { display: block; font-weight: 600; font-size: 17px; }
+.points p { margin: 2px 0 0; color: var(--ink-2); font-size: 15px; }
+
+/* ---------------------------------------------------------------- Download-Block */
+.cta-wrap { padding-block: 20px 110px; }
+.cta {
+  background: var(--dark); color: #f2f1ea; border-radius: 12px; padding: 60px 56px;
+  display: grid; grid-template-columns: 1.3fr 1fr; gap: 40px; align-items: center;
+}
+.cta .eyebrow { color: #c4c6b8; font-size: 11px; }
+.cta h2 { color: #fbfaf5; margin: 18px 0 16px; font-size: clamp(32px, 4.4vw, 48px); }
+.cta p { margin: 0; color: #c4c6b8; max-width: 30em; }
+.cta-side { display: grid; justify-items: center; gap: 12px; text-align: center; }
+.cta-side .btn-fox { width: 100%; justify-content: space-between; max-width: 340px; white-space: nowrap; gap: 24px; }
+.cta-side small { color: #a9ab9e; font-size: 13px; }
+.cta .status { color: #b9d79e; }
+.cta .status.warn { color: #f4a372; }
+
+.site-foot { border-top: 1px solid var(--line); }
+.site-foot .wrap { display: flex; justify-content: space-between; gap: 20px; flex-wrap: wrap; padding-block: 28px; font-size: 13px; color: var(--muted); }
+
+/* ---------------------------------------------------------------- Handy & Tablet */
+@media (max-width: 980px) {
+  .hero .wrap, .rules .wrap, .cta { grid-template-columns: 1fr; }
+  .hero .wrap { padding-block: 70px 60px; gap: 64px; }
+  .kinds { grid-template-columns: repeat(2, 1fr); }
+  .steps { grid-template-columns: 1fr; gap: 40px; }
+  .step .num { margin-bottom: 18px; }
+  .rules .wrap { gap: 50px; }
+  .cta { padding: 44px 30px; }
+  .cta-side { justify-items: start; text-align: left; }
+}
+@media (max-width: 640px) {
+  .nav a:not(.btn-ghost) { display: none; }
+  .btn-ghost { gap: 10px; padding: 10px 12px; font-size: 14px !important; }
+  .brand { font-size: 20px; gap: 9px; }
+  .brand-mark { width: 34px; height: 34px; }
+  .top .wrap { padding-block: 18px; }
+  .hero h1 .l { white-space: normal; }
+  .screen .tag.l { display: none; }
+  .kinds { gap: 12px; }
+  .kind { padding: 14px; }
+  .kind strong { font-size: 17px; }
+  .sec-head .side { text-align: left; }
+  .facts ul { flex-direction: column; }
+  .sticker { position: relative; right: auto; margin: 18px auto 0; width: fit-content; }
+  .mock-wrap { padding-bottom: 0; }
+  .btn-fox { width: 100%; justify-content: center; }
+  .btn-fox .arrow { margin-left: auto; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .kind, .btn-fox { transition: none; }
+}
+
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#start" aria-label="desktopfuchs Startseite">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32"><path d="M5 4l7 7h8l7-7v13c0 6-5 11-11 11S5 23 5 17z" fill="#fff4e8"/><path d="M5 4l7 7-1 7-6-1zM27 4l-7 7 1 7 6-1z" fill="#2c1c12" opacity=".85"/><path d="M10 18c2 4 4 6 6 6s4-2 6-6c-2 1-4 1.5-6 1.5S12 19 10 18z" fill="#fff"/><circle cx="12" cy="15" r="1.4" fill="#2c1c12"/><circle cx="20" cy="15" r="1.4" fill="#2c1c12"/><path d="M14.6 21h2.8L16 22.6z" fill="#2c1c12"/></svg>
+      </span>
+      <span>desktopfuchs<b>.</b></span>
+    </a>
+    <nav class="nav">
+      <a href="#fuechse">Die Füchse</a>
+      <a href="#anleitung">So geht’s</a>
+      <a class="btn-ghost" href="#download">Herunterladen <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
+
+<main id="start">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow"><span class="dot"></span>Kleiner Begleiter. Große Persönlichkeit.</p>
+        <h1><span class="l">Dein Desktop.</span><span class="l">Ein bisschen</span><span class="l"><em>wilder.</em></span></h1>
+        <p class="lead">Er läuft über deinen Bildschirm, macht es sich auf Fenstern gemütlich und folgt deiner Maus. Ein kleiner Fuchs, der einfach dazugehört.</p>
+        <a class="btn-fox js-download" href="https://github.com/obimokenobix/desktop-fuchs/releases/latest/download/Desktop-Fuchs.exe">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M6 10l6 6 6-6M4 21h16"/></svg>
+          Für Windows herunterladen <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <div class="meta"><span>Kostenlos</span><span>Windows 64-Bit</span><span>Ohne extra Python</span></div>
+        <p class="status js-status" role="status"></p>
+      </div>
+
+      <div class="mock-wrap">
+        <div class="mock">
+          <div class="mock-bar"><span class="dots"><i></i><i></i><i></i></span><span class="title">Ein Platz für deinen Fuchs</span><span aria-hidden="true">✕</span></div>
+          <div class="screen" id="screen">
+            <div class="sun"></div><div class="hill"></div><div class="hill two"></div>
+            <div class="note" id="note">
+              <div class="note-bar"><span>Heute auf deinem Desktop</span><span>– ✕</span></div>
+              <div class="note-body">
+                <small>Kleine Pause?</small>
+                <p>Ich leiste dir Gesellschaft.</p>
+                <div class="ln"></div><div class="ln"></div>
+              </div>
+            </div>
+            <canvas id="stage" aria-label="Animierter Fuchs – klick ihn an"></canvas>
+            <span class="tag l" id="stage-tag">Vorschau · Rotfuchs</span>
+            <span class="tag r">Psst … klick auf mich!</span>
+          </div>
+          <div class="mock-foot"><i></i>Dein neuer Mitbewohner</div>
+        </div>
+        <div class="sticker"><b>✦</b>Braucht keinen Platz auf deinem Schreibtisch.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="facts">
+    <div class="wrap">
+      <ul>
+        <li><span>01</span>Lebt auf deinen Fenstern</li>
+        <li><span>02</span>Reagiert auf deine Maus</li>
+        <li><span>03</span>Macht bei Vollbild Pause</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="fuechse">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Vier Arten. Dein Lieblingsfuchs.</p>
+          <h2>Wer zieht bei dir ein?</h2>
+        </div>
+        <p class="side">Wähle einen Fuchs für die Vorschau.<br>In der App kannst du mehrere halten.</p>
+      </div>
+      <div class="kinds" id="kinds"></div>
+      <p class="picked" id="picked">Rotfuchs ist in der Vorschau ausgewählt.</p>
+    </div>
+  </section>
+
+  <section class="section steps-band" id="anleitung">
+    <div class="wrap">
+      <div class="sec-head">
+        <div>
+          <p class="eyebrow">Vom Download auf den Desktop</p>
+          <h2>Drei Schritte. Ein neuer Freund.</h2>
+        </div>
+        <span class="pill">Kein Python nötig</span>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="num">1</div>
+          <h3>Herunterladen</h3>
+          <p>Klicke auf den orangen Downloadknopf. Speichere <b>Desktop-Fuchs.exe</b> in einem Ordner, in dem du sie behalten möchtest.</p>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3>Mit Doppelklick öffnen</h3>
+          <p>Öffne die heruntergeladene Datei auf deinem Windows-PC. Der Fuchs läuft direkt los, ein extra Installationsprogramm brauchst du nicht.</p>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3>Deinen Fuchs kennenlernen</h3>
+          <p>Ein Klick streichelt ihn. Mit Rechtsklick öffnest du das Menü und die Einstellungen für Farben, Größe und Verhalten.</p>
+        </div>
+      </div>
+      <p class="foot-note">↳ Zeigt Windows „Der Computer wurde durch Windows geschützt“, klicke auf <b>Weitere Informationen</b> und dann auf <b>Trotzdem ausführen</b>. Beenden kannst du ihn jederzeit mit Rechtsklick auf einen Fuchs.</p>
+    </div>
+  </section>
+
+  <section class="section rules">
+    <div class="wrap">
+      <div class="studio">
+        <canvas id="studio" aria-label="Farb-Vorschau deines Fuchses"></canvas>
+        <div class="studio-ctrl">
+          <div class="swatches" id="swatches" role="group" aria-label="Fellfarbe"></div>
+          <div class="ctrl-row">
+            <label for="ears">Ohren <input id="ears" type="range" min="0.6" max="2" step="0.05" value="1"></label>
+            <button class="btn-small" id="random" type="button">Zufallsfarben</button>
+          </div>
+        </div>
+        <p class="cap">Probier’s aus. In der App änderst du jede Farbe einzeln.</p>
+      </div>
+      <div>
+        <p class="eyebrow">So einzigartig wie dein Desktop</p>
+        <h2>Dein Fuchs.<br>Deine Regeln.</h2>
+        <p class="lead">Lieber ein schläfriger Polarfuchs oder ein wilder orangefarbener Mitbewohner? Du bestimmst, wie dein Fuchs aussieht und sich verhält.</p>
+        <ul class="points">
+          <li><span>01</span><div><strong>Mach ihn zu deinem</strong><p>Gib ihm einen Namen. Ändere Fellfarbe, Größe und Ohren oder erfinde eine eigene Sorte.</p></div></li>
+          <li><span>02</span><div><strong>Von gemütlich bis wild</strong><p>Stelle Tempo, Sprünge und die Zeit bis zum Einschlafen ein.</p></div></li>
+          <li><span>03</span><div><strong>Bleibt, wenn du möchtest</strong><p>Aktiviere „Mit Windows starten“ direkt in den Einstellungen.</p></div></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-wrap" id="download">
+    <div class="wrap">
+      <div class="cta">
+        <div>
+          <p class="eyebrow">Bereit für ein bisschen Gesellschaft?</p>
+          <h2>Lass einen Fuchs einziehen.</h2>
+          <p>Die Windows-App ist fertig zum Starten. Einfach herunterladen und öffnen.</p>
+        </div>
+        <div class="cta-side">
+          <a class="btn-fox js-download" href="https://github.com/obimokenobix/desktop-fuchs/releases/latest/download/Desktop-Fuchs.exe">Desktop-Fuchs herunterladen <span aria-hidden="true">↓</span></a>
+          <small>Windows 64-Bit · EXE · 10,4 MB</small>
+          <p class="status js-status" role="status"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap"><span>desktopfuchs. · kostenlos &amp; ohne Werbung</span><span>Rotfuchs · Polarfuchs · Silberfuchs · Fennek</span></div>
+</footer>
+
+<script>
+/* desktopfuchs. — Fuchs-Zeichnung 1:1 aus der Desktop-App (Python) portiert */
+(() => {
+  "use strict";
+  const PI = Math.PI, TAU = PI * 2;
+  const { sin, cos, sqrt, abs, max, min, hypot, atan2 } = Math;
+
+  // ------------------------------------------------------------ Sorten
+  const SKINS = {
+    rot: { label: "Rotfuchs", desc: "Der Klassiker in Orange", fur: "#ec7a2c", dark: "#c45a1a", light: "#fff4e6", socks: "#3b2a22", socks_far: "#2a1d17", ear_in: "#4a2a1e", ear_tip: "#2e211b", tail_tip: "#fff8ef", nose: "#1e1714", eye: "#1e1714", outline: "#6e2f0e", ears: 1.0 },
+    polar: { label: "Polarfuchs", desc: "Ganz in Schneeweiß", fur: "#f5f8fc", dark: "#d4dde8", light: "#ffffff", socks: "#e4eaf2", socks_far: "#c9d3df", ear_in: "#c3cfdd", ear_tip: "#e1e8f0", tail_tip: "#ffffff", nose: "#2a2f38", eye: "#2a2f38", outline: "#7b889a", ears: 0.85 },
+    silber: { label: "Silberfuchs", desc: "Dunkles Fell, helle Augen", fur: "#43474f", dark: "#30333a", light: "#a9afb9", socks: "#202226", socks_far: "#18191c", ear_in: "#25272c", ear_tip: "#16171a", tail_tip: "#f4f6f8", nose: "#0c0c0e", eye: "#f2b23a", pupil: "#111111", outline: "#141518", ears: 1.0 },
+    fennek: { label: "Fennek", desc: "Klein mit großen Ohren", fur: "#ebcf9c", dark: "#d0b077", light: "#fff9ec", socks: "#e0c189", socks_far: "#c6a66c", ear_in: "#f0b5a3", ear_tip: "#dcb57c", tail_tip: "#3a2a1e", nose: "#2a1d14", eye: "#2a1d14", outline: "#8a6a3a", ears: 1.6 },
+  };
+  const KEYS = Object.keys(SKINS);
+
+  // ------------------------------------------------------------ Geometrie
+  function ell(cx, cy, rx, ry, ang = 0, n = 16) {
+    const ca = cos(ang), sa = sin(ang), p = [];
+    for (let i = 0; i < n; i++) {
+      const a = TAU * i / n, x = rx * cos(a), y = ry * sin(a);
+      p.push([cx + x * ca - y * sa, cy + x * sa + y * ca]);
+    }
+    return p;
+  }
+  function tailPoly(bx, by, a0, curl, L, W, s0 = 0, n = 12) {
+    const cl = [[bx, by, a0]];
+    let x = bx, y = by;
+    const st = L / n;
+    for (let i = 1; i <= n; i++) {
+      const a = a0 + curl * i / n;
+      x += cos(a) * st; y += sin(a) * st;
+      cl.push([x, y, a]);
+    }
+    const l = [], r = [];
+    cl.forEach(([x, y, a], i) => {
+      const s = i / n;
+      if (s < s0 - 1e-9) return;
+      const w = W * sqrt(max(0, sin(PI * (0.15 + 0.85 * s))));
+      const nx = -sin(a), ny = cos(a);
+      l.push([x + nx * w, y + ny * w]);
+      r.push([x - nx * w, y - ny * w]);
+    });
+    return l.concat(r.reverse());
+  }
+  const rig = (o) => Object.assign({ body: null, chest: null, haunch: null, head: [38, -51, 0], neck: null, legs: [], tail: null, tailFront: false, ears: 0, eyes: "open", look: [0, 0], mouth: false }, o);
+
+  function rigStand(t, o = {}) {
+    const { ph = 0, walk = 0, run = false, crouch = 0, bow = 0, sniff = 0, wag = 0.07, wagSpeed = 0.08, wiggle = 0 } = o;
+    const amp = run ? 13 : 7.5, lift = run ? 9 : 5;
+    const bob = -abs(sin(ph)) * (run ? 2.6 : 1.4) * walk;
+    const breath = 0.5 * sin(t * 0.09);
+    const bx = wiggle, by = -31 + bob + 9 * crouch + 4 * bow;
+    const body = [bx, by, run ? 32 : 31, 14 + breath, 0.16 * bow - (run ? 0.04 : 0)];
+    const legs = [];
+    for (const [hx, hy, fx, off, near, front] of [[-20, -25, -22, 0, false, false], [-12, -23, -12, PI, true, false], [16, -25, 18, PI, false, true], [24, -24, 25, 0, true, true]]) {
+      const sw = sin(ph + off) * amp * walk;
+      const lf = max(0, cos(ph + off)) * lift * walk;
+      const hipY = hy + bob + 9 * crouch + (front ? 9 * bow : 2 * bow);
+      const footX = fx + sw + (front ? 12 * bow : 0) + (front ? 4 * crouch : -4 * crouch);
+      legs.push([[hx + bx, hipY], [footX, -lf], near]);
+    }
+    const hx = 38 + 6 * sniff + 4 * bow + bx;
+    const hy = -51 + bob * 0.6 + 9 * crouch + 24 * sniff + 18 * bow;
+    const ha = 0.55 * sniff + 0.2 * bow;
+    const neck = [[bx + 12, by - 11], [hx - 9, hy - 6], [hx + 5, hy + 9], [bx + 27, by + 5]];
+    const tailA = (run ? PI - 0.12 : PI - 0.25) + sin(t * wagSpeed) * wag - 0.35 * bow;
+    return rig({ body, chest: [bx + 20, by + 1, 10, 9, 0.3], head: [hx, hy, ha], neck, legs, tail: [bx - 27, by - 2, tailA, run ? 0.35 : 0.7, 52, 11] });
+  }
+  function rigSit(t, o = {}) {
+    const { wag = 0.06, wagSpeed = 0.07, tilt = 0 } = o;
+    const b = 0.6 * sin(t * 0.08), hx = 13, hy = -61 + b * 0.5;
+    return rig({
+      body: [-2, -30, 17, 22 + b, 0.28], chest: [8, -38, 8, 13, 0.28], haunch: [-11, -13, 15, 12, 0.1],
+      head: [hx, hy, tilt], neck: [[-8, -46], [hx - 10, hy - 2], [hx + 5, hy + 9], [10, -40]],
+      legs: [[[7, -28], [8, 0], false], [[14, -28], [15, 0], true], [[-6, -7], [8, -1], true]],
+      tail: [-18, -12, PI - 0.12 + sin(t * wagSpeed) * wag, 0.55, 46, 10],
+    });
+  }
+  function rigSleep(t) {
+    const b = 0.9 * sin(t * 0.05);
+    return rig({ body: [0, -14, 30, 13 + b, 0], haunch: [-14, -15, 15, 12, 0], head: [24, -13 + b * 0.3, 0.42], tail: [-30, -11, 0.12, -0.75, 64, 10], tailFront: true, ears: 0.75, eyes: "closed" });
+  }
+  function rigAir(t, vy) {
+    const r = rigStand(t), up = vy < 0;
+    r.legs = r.legs.map(([hip, , near], i) => {
+      const front = i >= 2;
+      const f = up ? [hip[0] + (front ? 17 : -17), hip[1] + 15] : [hip[0] + (front ? 8 : -6) + sin(t * 0.6 + i) * 2.5, hip[1] + 22];
+      return [hip, f, near];
+    });
+    const [bx, by] = r.body;
+    r.tail = [bx - 27, by - 2, PI + (up ? -0.1 : 0.15), 0.2, 54, 11];
+    r.ears = 0.1;
+    return r;
+  }
+
+  function rigShapes(r, k) {
+    const S = [], O = k.outline;
+    const poly = (pts, fill, outline = O, smooth = true) => S.push(["poly", pts, fill, outline, smooth]);
+    const line = (pts, col, w, smooth = false) => S.push(["line", pts, col, w, smooth]);
+    const legOut = (h, f) => line([h, f], O, 9.6);
+    const legFill = (h, f, near) => {
+      line([h, f], near ? k.fur : k.dark, 7);
+      const m = [h[0] + (f[0] - h[0]) * 0.55, h[1] + (f[1] - h[1]) * 0.55];
+      line([m, f], near ? k.socks : k.socks_far, 7);
+    };
+    const tail = () => {
+      if (!r.tail) return;
+      const [bx, by, a0, curl, L, W] = r.tail;
+      poly(tailPoly(bx, by, a0, curl, L, W), k.fur);
+      poly(tailPoly(bx, by, a0, curl, L, W, 0.65), k.tail_tip);
+    };
+    const far = r.legs.filter((l) => !l[2]), near = r.legs.filter((l) => l[2]);
+    far.forEach(([h, f]) => { legOut(h, f); legFill(h, f, false); });
+    if (!r.tailFront) tail();
+    near.forEach(([h, f]) => legOut(h, f));
+    if (r.neck) poly(r.neck, k.fur);
+    poly(ell(...r.body), k.fur);
+    if (r.haunch) poly(ell(...r.haunch), k.fur);
+    if (r.chest) poly(ell(...r.chest), k.light, "");
+    near.forEach(([h, f]) => legFill(h, f, true));
+    if (r.tailFront) tail();
+
+    const [hx, hy, ha] = r.head, ca = cos(ha), sa = sin(ha);
+    const HP = (pts) => pts.map(([x, y]) => [hx + x * ca - y * sa, hy + x * sa + y * ca]);
+    const ea = r.ears, es = k.ears || 1;
+    const ear = (b1, b2, tip, back) => {
+      const mx = (b1[0] + b2[0]) / 2, my = (b1[1] + b2[1]) / 2;
+      let tx = (tip[0] - mx) * es, ty = (tip[1] - my) * es;
+      const c = cos(-ea * 1.1), s = sin(-ea * 1.1);
+      [tx, ty] = [tx * c - ty * s, tx * s + ty * c];
+      const T = [mx + tx, my + ty];
+      if (es > 1) {
+        const f = 1 + (es - 1) * 0.6;
+        b1 = [mx + (b1[0] - mx) * f, my + (b1[1] - my) * f];
+        b2 = [mx + (b2[0] - mx) * f, my + (b2[1] - my) * f];
+      }
+      poly(HP([b1, T, b2]), back ? k.dark : k.fur, O, false);
+      const ci = [(b1[0] + b2[0] + T[0]) / 3, (b1[1] + b2[1] + T[1]) / 3];
+      const tw = (p, f) => [ci[0] + (p[0] - ci[0]) * f, ci[1] + (p[1] - ci[1]) * f];
+      poly(HP([tw(b1, 0.55), tw(T, 0.6), tw(b2, 0.55)]), k.ear_in, "", false);
+      const q = 0.34;
+      poly(HP([T, [T[0] + (b1[0] - T[0]) * q, T[1] + (b1[1] - T[1]) * q], [T[0] + (b2[0] - T[0]) * q, T[1] + (b2[1] - T[1]) * q]]), k.ear_tip, O, false);
+    };
+    ear([-10, -6], [-2, -10], [-8, -25], true);
+    ear([-3, -10], [6, -8], [0, -26], false);
+    poly(HP([[5, -6], [15, -2], [22.5, 3], [21, 6.5], [11, 8.5], [3, 7]]), k.fur);
+    poly(HP(ell(0, 0, 12.5, 11.5)), k.fur);
+    poly(HP(ell(8, 1, 7.5, 5.5)), k.fur, "");
+    poly(HP([[-7, 2], [4, 3], [14, 5.5], [21, 6.5], [13, 10], [1, 11.5], [-8, 8]]), k.light, "");
+    line(HP([[-8, 8], [1, 11.5], [13, 10], [21, 6.5]]), O, 1.6, true);
+    const ex = 6, ey = -2.5, [lx, ly] = r.look;
+    if (r.eyes === "open" || r.eyes === "wide") {
+      const [rx, ry] = r.eyes === "open" ? [2.6, 3.2] : [3.1, 3.8];
+      const ox = lx * 0.9, oy = ly * 0.8;
+      poly(HP(ell(ex + ox, ey + oy, rx, ry, 0, 12)), k.eye, k.pupil || k.eye);
+      if (k.pupil) poly(HP(ell(ex + ox + 0.4, ey + oy, 0.9, ry * 0.75, 0, 8)), k.pupil, "");
+      poly(HP(ell(ex + ox + 0.9, ey + oy - 1.2, 0.95, 0.95, 0, 8)), "#ffffff", "");
+    } else if (r.eyes === "closed") {
+      line(HP([[ex - 3, ey], [ex, ey + 1.6], [ex + 3, ey]]), k.eye !== O ? O : k.eye, 1.8, true);
+    } else if (r.eyes === "happy") {
+      line(HP([[ex - 3, ey + 1], [ex, ey - 2], [ex + 3, ey + 1]]), O, 1.8);
+    }
+    poly(HP(ell(22, 3.4, 2.7, 2.2, 0, 10)), k.nose, k.nose);
+    if (r.mouth) {
+      poly(HP(ell(15, 9, 4.2, 3.2)), "#5b1f22", O);
+      poly(HP(ell(15, 10.6, 2.6, 1.3, 0, 10)), "#ff8fa3", "");
+    }
+    return S;
+  }
+
+  // ------------------------------------------------------------ Zeichnen
+  const mid = (a, b) => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
+  function tracePoly(ctx, p, smooth) {
+    const n = p.length;
+    if (!smooth || n < 3) { ctx.moveTo(p[0][0], p[0][1]); for (let i = 1; i < n; i++) ctx.lineTo(p[i][0], p[i][1]); ctx.closePath(); return; }
+    const m0 = mid(p[n - 1], p[0]);
+    ctx.moveTo(m0[0], m0[1]);
+    for (let i = 0; i < n; i++) { const a = p[i], m = mid(a, p[(i + 1) % n]); ctx.quadraticCurveTo(a[0], a[1], m[0], m[1]); }
+    ctx.closePath();
+  }
+  function traceLine(ctx, p, smooth) {
+    ctx.moveTo(p[0][0], p[0][1]);
+    if (!smooth || p.length < 3) { for (let i = 1; i < p.length; i++) ctx.lineTo(p[i][0], p[i][1]); return; }
+    for (let i = 1; i < p.length - 2; i++) { const m = mid(p[i], p[i + 1]); ctx.quadraticCurveTo(p[i][0], p[i][1], m[0], m[1]); }
+    const a = p[p.length - 2], b = p[p.length - 1];
+    ctx.quadraticCurveTo(a[0], a[1], b[0], b[1]);
+  }
+  /** Fuchs zeichnen: Pfoten bei (x,y), Groesse s, Blickrichtung f (1/-1), Drehung rot um piv */
+  function drawFox(ctx, r, skin, x, y, s, f = 1, rot = 0, piv = [0, -31], squash = 0) {
+    ctx.save();
+    ctx.translate(x, y);
+    ctx.scale(f * s, s);
+    if (rot) { ctx.translate(piv[0], piv[1]); ctx.rotate(rot); ctx.translate(-piv[0], -piv[1]); }
+    if (squash) ctx.scale(1 + squash * 0.45, 1 - squash * 0.55);
+    ctx.lineJoin = "round"; ctx.lineCap = "round";
+    for (const sh of rigShapes(r, skin)) {
+      ctx.beginPath();
+      if (sh[0] === "poly") {
+        tracePoly(ctx, sh[1], sh[4]);
+        ctx.fillStyle = sh[2]; ctx.fill();
+        if (sh[3]) { ctx.strokeStyle = sh[3]; ctx.lineWidth = 1.6; ctx.stroke(); }
+      } else {
+        traceLine(ctx, sh[1], sh[4]);
+        ctx.strokeStyle = sh[2]; ctx.lineWidth = sh[3]; ctx.stroke();
+      }
+    }
+    ctx.restore();
+  }
+  function fitCanvas(cv) {
+    const r = cv.getBoundingClientRect(), d = window.devicePixelRatio || 1;
+    const w = max(1, Math.round(r.width)), h = max(1, Math.round(r.height));
+    if (cv.width !== w * d || cv.height !== h * d) { cv.width = w * d; cv.height = h * d; }
+    const ctx = cv.getContext("2d");
+    ctx.setTransform(d, 0, 0, d, 0, 0);
+    return { ctx, w, h };
+  }
+
+  // ------------------------------------------------------------ Farben
+  function hexToHsv(hex) {
+    const n = parseInt(hex.slice(1), 16), r = (n >> 16) / 255, g = ((n >> 8) & 255) / 255, b = (n & 255) / 255;
+    const mx = max(r, g, b), mn = min(r, g, b), d = mx - mn;
+    let h = 0;
+    if (d) h = mx === r ? ((g - b) / d) % 6 : mx === g ? (b - r) / d + 2 : (r - g) / d + 4;
+    return [((h / 6) + 1) % 1, mx ? d / mx : 0, mx];
+  }
+  function hsv(h, s, v) {
+    h = ((h % 1) + 1) % 1; s = max(0, min(1, s)); v = max(0, min(1, v));
+    const i = Math.floor(h * 6), f = h * 6 - i, p = v * (1 - s), q = v * (1 - f * s), t = v * (1 - (1 - f) * s);
+    const [r, g, b] = [[v, t, p], [q, v, p], [p, v, t], [p, q, v], [t, p, v], [v, p, q]][i % 6];
+    return "#" + [r, g, b].map((x) => Math.round(x * 255).toString(16).padStart(2, "0")).join("");
+  }
+  function skinFrom(h, sa, v, ears = 1, darkTip = false) {
+    return {
+      fur: hsv(h, sa, v), dark: hsv(h, sa, v * 0.8), light: hsv(h, sa * 0.12, 1),
+      socks: hsv(h + 0.03, sa * 0.6, v * 0.33), socks_far: hsv(h + 0.03, sa * 0.6, v * 0.25),
+      ear_in: hsv(h, sa * 0.5, v * 0.45), ear_tip: hsv(h, sa * 0.5, v * 0.3),
+      tail_tip: darkTip ? hsv(h, sa * 0.5, v * 0.3) : hsv(h, sa * 0.08, 1),
+      outline: hsv(h, sa, v * 0.4), eye: "#1e1714", nose: "#1e1714", ears,
+    };
+  }
+
+  // ------------------------------------------------------------ Bühne im Hero
+  const stageCv = document.getElementById("stage");
+  const note = document.getElementById("note");
+  const stageTag = document.getElementById("stage-tag");
+  const pointer = { x: -999, y: -999, speed: 0, still: 0, inside: false };
+  const fox = {
+    kind: "rot", x: 0, y: 0, f: 1, state: "idle", st: 0, dur: 40, ph: 0, vx: 0, vy: 0, plat: "ground",
+    target: null, rot: 0, spin: 0, squash: 0, look: [0.5, 0], blink: 0, emotes: [], after: null, sleepy: 0, cd: 0, placed: false,
+  };
+  let W = 0, H = 0, S = 1;
+
+  function platforms() {
+    const groundY = H * 0.9;
+    const nx = note.offsetLeft, ny = note.offsetTop, nw = note.offsetWidth;
+    return {
+      ground: { y: groundY, x0: 70 * S, x1: W - 50 * S },
+      note: { y: ny + 2, x0: nx + 40 * S, x1: nx + nw - 26 * S },
+    };
+  }
+  function setState(name, dur = 0) { fox.state = name; fox.st = 0; fox.dur = dur; }
+  function say(txt) { fox.emotes.push({ txt, life: 40, total: 40 }); }
+  const EMO = { "♥": "#ff4f6e", "!": "#ffb300", "?": "#3d9bff", "z": "#8ea2c0", "♪": "#7c5cff" };
+
+  function jumpTo(tx, ty, plat, extra = 55) {
+    const g = 0.85 * S;
+    const rise = fox.y - ty;
+    const up = max(30 * S, rise + extra * S);
+    const vy0 = -sqrt(2 * g * up);
+    const t1 = -vy0 / g, t2 = sqrt(2 * max(1, up - rise) / g);
+    fox.vx = (tx - fox.x) / (t1 + t2);
+    fox.vy = vy0;
+    fox.f = fox.vx >= 0 ? 1 : -1;
+    fox.plat = null; fox.target = { y: ty, plat };
+    setState("air");
+  }
+  function choose() {
+    const P = platforms(), p = P[fox.plat];
+    const r = Math.random();
+    if (r < 0.34) { fox.target = p.x0 + Math.random() * (p.x1 - p.x0); setState("walk", 400); }
+    else if (r < 0.5) setState("sit", 120 + Math.random() * 200);
+    else if (r < 0.6) setState("sniff", 40 + Math.random() * 40);
+    else if (r < 0.86) {
+      const other = fox.plat === "ground" ? "note" : "ground", q = P[other];
+      const tx = min(max(fox.x + (Math.random() - 0.5) * 220 * S, q.x0), q.x1);
+      fox.target = { tx, ty: q.y, plat: other };
+      setState("prejump", 8);
+    } else if (fox.sleepy > 900) { setState("sleep", 300 + Math.random() * 300); }
+    else setState("sit", 150);
+  }
+
+  function tick() {
+    if (!W) return;
+    const P = platforms();
+    fox.st++; fox.sleepy++;
+    fox.squash *= 0.8;
+    if (fox.cd > 0) fox.cd--;
+    fox.emotes = fox.emotes.filter((e) => --e.life > 0);
+    if (fox.blink > 0) fox.blink--; else if (Math.random() < 0.012) fox.blink = 4;
+    if (!fox.placed) { fox.plat = "ground"; fox.x = W * 0.72; fox.y = P.ground.y; fox.placed = true; }
+
+    // Augen folgen der Maus
+    const hx = fox.x + fox.f * 38 * S, hy = fox.y - 50 * S;
+    const dx = pointer.x - hx, dy = pointer.y - hy, d = hypot(dx, dy);
+    const tl = pointer.inside && fox.state !== "sleep" ? [fox.f * dx / max(d, 1), dy / max(d, 1)] : [0.4, 0.1];
+    fox.look = [fox.look[0] + (tl[0] - fox.look[0]) * 0.25, fox.look[1] + (tl[1] - fox.look[1]) * 0.25];
+
+    if (fox.state === "air") {
+      const g = 0.85 * S;
+      fox.vy += g;
+      const ny = fox.y + fox.vy;
+      fox.x += fox.vx;
+      if (fox.spin) fox.rot += fox.spin;
+      else fox.rot += (max(-0.6, min(0.7, atan2(fox.vy, abs(fox.vx) + 6 * S) * 0.45)) - fox.rot) * 0.2;
+      const t = fox.target;
+      if (fox.vy > 0 && t && ny >= t.y) {
+        fox.y = t.y; fox.plat = t.plat; fox.target = null;
+        const p = P[fox.plat];
+        fox.x = min(max(fox.x, p.x0), p.x1);
+        fox.rot = 0; fox.spin = 0; fox.vx = 0; fox.vy = 0;
+        fox.squash = min(0.4, 0.12 + abs(fox.vy) / 50);
+        fox.squash = 0.25;
+        if (fox.after) { setState(fox.after[0], fox.after[1]); fox.after = null; } else setState("idle", 30);
+      } else fox.y = ny;
+      return;
+    }
+
+    // auf Plattform
+    const p = P[fox.plat];
+    fox.y = p.y;
+    if (fox.x < p.x0 - 5 || fox.x > p.x1 + 5) { fox.x = min(max(fox.x, p.x0), p.x1); }
+
+    // Reaktionen
+    const near = d < 120 * S;
+    if (fox.state === "sleep") {
+      if (fox.st % 50 === 1) say("z");
+      if (fox.st > fox.dur) { setState("stretch", 40); fox.sleepy = 0; }
+      return;
+    }
+    if (pointer.inside && near && pointer.speed > 30 * S && fox.cd === 0 && !["happy", "prejump", "crouch"].includes(fox.state)) {
+      fox.cd = 90; say("!");
+      const away = pointer.x > fox.x ? -1 : 1;
+      const tx = min(max(fox.x + away * 110 * S, p.x0), p.x1);
+      fox.after = ["walk", 1]; fox.target = null;
+      jumpTo(tx, p.y, fox.plat, 40);
+      return;
+    }
+    if (pointer.inside && pointer.still > 45 && d < 200 * S && abs(pointer.y - fox.y) < 140 * S && fox.cd === 0 && ["idle", "walk", "sit", "sniff"].includes(fox.state)) {
+      fox.cd = 260; pointer.still = 0;
+      fox.f = pointer.x > fox.x ? 1 : -1;
+      say("?"); setState("crouch", 30);
+      return;
+    }
+
+    switch (fox.state) {
+      case "idle": if (fox.st >= fox.dur) choose(); break;
+      case "walk": {
+        const speed = 1.6 * S;
+        if (typeof fox.target !== "number") { setState("idle", 20); break; }
+        const dx2 = fox.target - fox.x;
+        if (abs(dx2) < speed * 2) { fox.target = null; setState("idle", 30 + Math.random() * 40); break; }
+        fox.f = dx2 > 0 ? 1 : -1; fox.x += fox.f * speed; fox.ph += 0.22;
+        break;
+      }
+      case "sniff": fox.ph += 0.07; if (fox.st >= fox.dur) setState("idle", 30); break;
+      case "sit": if (fox.st >= fox.dur) setState("idle", 20); break;
+      case "happy": if (fox.st % 16 === 1) say("♥"); if (fox.st >= fox.dur) setState("sit", 120); break;
+      case "stretch": if (fox.st >= fox.dur) setState("idle", 30); break;
+      case "prejump": if (fox.st >= fox.dur) { const t = fox.target; fox.target = null; if (t) jumpTo(t.tx, t.ty, t.plat); else setState("idle", 20); } break;
+      case "crouch":
+        if (fox.st >= fox.dur) {
+          const tx = min(max(pointer.x, fox.x - 220 * S, p.x0), fox.x + 220 * S, p.x1);
+          say("♪"); fox.after = ["idle", 35];
+          jumpTo(tx, p.y, fox.plat, 30 + Math.random() * 30);
+        }
+        break;
+    }
+  }
+
+  function pose(t) {
+    const st = fox.state;
+    let r, rot = 0, piv = [0, -31];
+    if (st === "air") { r = rigAir(t, fox.vy); rot = fox.rot; }
+    else if (st === "walk") r = rigStand(t, { ph: fox.ph, walk: 1 });
+    else if (st === "sniff") r = rigStand(t, { ph: fox.ph, walk: 0.25, sniff: 0.85 + 0.12 * sin(t * 0.7) });
+    else if (st === "sit") r = rigSit(t);
+    else if (st === "happy") { r = rigSit(t, { wag: 0.4, wagSpeed: 0.5, tilt: -0.12 + 0.08 * sin(t * 0.3) }); r.eyes = "happy"; r.ears = -0.1; }
+    else if (st === "sleep") r = rigSleep(t);
+    else if (st === "stretch") { const p = fox.st / fox.dur; r = rigStand(t, { bow: sin(PI * min(1, p * 1.3)) }); if (p < 0.6) r.eyes = "closed"; }
+    else if (st === "crouch") { r = rigStand(t, { crouch: 0.5, bow: 0.55, wiggle: 2.5 * sin(fox.st * 0.9), wag: 0.35, wagSpeed: 0.5 }); r.eyes = "wide"; r.ears = -0.15; }
+    else if (st === "prejump") r = rigStand(t, { crouch: min(1, fox.st / 4) });
+    else r = rigStand(t);
+    if (r.eyes === "open" || r.eyes === "wide") {
+      r.look = fox.look;
+      if (fox.blink > 0 && r.eyes === "open") r.eyes = "closed";
+    }
+    return { r, rot, piv };
+  }
+
+  function renderStage(t) {
+    const { ctx, w, h } = fitCanvas(stageCv);
+    if (w !== W || h !== H) { W = w; H = h; S = max(0.55, min(1.35, w / 430)); }
+    ctx.clearRect(0, 0, w, h);
+    const P = platforms();
+    // Boden-Schatten
+    if (fox.plat) {
+      ctx.fillStyle = "rgba(60,80,50,.16)";
+      ctx.beginPath(); ctx.ellipse(fox.x, fox.y + 1, 40 * S, 4 * S, 0, 0, TAU); ctx.fill();
+    }
+    const { r, rot, piv } = pose(t);
+    drawFox(ctx, r, SKINS[fox.kind], fox.x, fox.y, S, fox.f, rot, piv, fox.plat ? fox.squash : 0);
+    // Symbole über dem Kopf
+    for (const e of fox.emotes) {
+      const prog = 1 - e.life / e.total;
+      const ex = fox.x + fox.f * (fox.state === "sleep" ? 24 : 34) * S;
+      const ey = fox.y - (fox.state === "sleep" ? 40 : 92) * S - prog * 22 * S;
+      ctx.globalAlpha = min(1, e.life / 10);
+      ctx.font = "700 " + Math.round((e.txt === "z" ? 16 : 22) * S) + 'px "DM Sans", "Segoe UI Symbol", sans-serif';
+      ctx.textAlign = "center";
+      ctx.fillStyle = "#2b2b2b"; ctx.fillText(e.txt, ex + 1.5, ey + 1.5);
+      ctx.fillStyle = EMO[e.txt] || "#333"; ctx.fillText(e.txt, ex, ey);
+      ctx.globalAlpha = 1;
+    }
+    void P;
+  }
+
+  function foxHit(px, py) {
+    return px > fox.x - 70 * S && px < fox.x + 70 * S && py > fox.y - 95 * S && py < fox.y + 10 * S;
+  }
+  let lastClick = 0;
+  stageCv.addEventListener("pointermove", (e) => {
+    const b = stageCv.getBoundingClientRect();
+    const nx = e.clientX - b.left, ny = e.clientY - b.top;
+    pointer.speed = pointer.inside ? hypot(nx - pointer.x, ny - pointer.y) : 0;
+    pointer.x = nx; pointer.y = ny; pointer.inside = true; pointer.still = 0;
+  });
+  stageCv.addEventListener("pointerleave", () => { pointer.inside = false; });
+  stageCv.addEventListener("click", (e) => {
+    const b = stageCv.getBoundingClientRect();
+    const px = e.clientX - b.left, py = e.clientY - b.top;
+    if (!foxHit(px, py) || fox.state === "air") return;
+    const now = performance.now();
+    if (fox.state === "sleep") { say("!"); setState("stretch", 40); fox.sleepy = 0; return; }
+    if (now - lastClick < 380) {
+      lastClick = 0;
+      fox.after = ["happy", 50];
+      const y = fox.y;
+      jumpTo(fox.x, y, fox.plat, 160);
+      fox.spin = -TAU / (2 * sqrt(2 * 0.85 * S * 160 * S) / (0.85 * S));
+      return;
+    }
+    lastClick = now;
+    fox.sleepy = 0;
+    setState("happy", 70); say("♥");
+  });
+
+  function setKind(k) {
+    fox.kind = k;
+    stageTag.textContent = "Vorschau · " + SKINS[k].label;
+    document.getElementById("picked").textContent = SKINS[k].label + " ist in der Vorschau ausgewählt.";
+    document.querySelectorAll(".kind").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.kind === k)));
+    say("♥");
+  }
+
+  // ------------------------------------------------------------ Karten
+  const kindsEl = document.getElementById("kinds");
+  const cards = KEYS.map((k, i) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "kind"; b.dataset.kind = k;
+    b.setAttribute("aria-pressed", String(k === "rot"));
+    b.innerHTML = '<span class="no">0' + (i + 1) + '</span><canvas aria-hidden="true"></canvas>' +
+      '<span class="row"><span><strong>' + SKINS[k].label + '</strong><small>' + SKINS[k].desc + '</small></span><span class="go" aria-hidden="true">↗</span></span>';
+    let hover = false;
+    b.addEventListener("pointerenter", () => { hover = true; });
+    b.addEventListener("pointerleave", () => { hover = false; });
+    b.addEventListener("click", () => { setKind(k); document.getElementById("start").scrollIntoView({ behavior: "smooth" }); });
+    kindsEl.appendChild(b);
+    return { k, cv: b.querySelector("canvas"), hover: () => hover, off: i * 37 };
+  });
+  function renderCards(t) {
+    for (const c of cards) {
+      const { ctx, w, h } = fitCanvas(c.cv);
+      ctx.clearRect(0, 0, w, h);
+      const s = min(w / 150, h / 95) * 1.0;
+      ctx.strokeStyle = "rgba(60,70,60,.35)"; ctx.lineWidth = 1;
+      ctx.beginPath(); ctx.moveTo(0, h * 0.84); ctx.lineTo(w, h * 0.84); ctx.stroke();
+      const tt = t + c.off;
+      const r = c.hover() ? rigSit(tt, { wag: 0.4, wagSpeed: 0.5 }) : rigSit(tt);
+      r.look = [0.6, -0.1];
+      if (c.hover()) { r.eyes = "happy"; r.ears = -0.1; }
+      else if ((tt % 140) < 4) r.eyes = "closed";
+      drawFox(ctx, r, SKINS[c.k], w * 0.55, h * 0.84, s);
+    }
+  }
+
+  // ------------------------------------------------------------ Farbstudio
+  const studioCv = document.getElementById("studio");
+  const PRESETS = [
+    ["Rotfuchs", SKINS.rot], ["Polarfuchs", SKINS.polar], ["Silberfuchs", SKINS.silber], ["Fennek", SKINS.fennek],
+    ["Lila", skinFrom(0.76, 0.55, 0.82, 1.2, false)], ["Mint", skinFrom(0.43, 0.5, 0.78)],
+    ["Himmelblau", skinFrom(0.58, 0.55, 0.9)], ["Rosa", skinFrom(0.93, 0.42, 0.95, 1.1)], ["Gold", skinFrom(0.12, 0.75, 0.92, 1, true)],
+  ];
+  let studioSkin = Object.assign({}, SKINS.rot);
+  const swEl = document.getElementById("swatches");
+  const earsEl = document.getElementById("ears");
+  PRESETS.forEach(([name, sk], i) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "sw"; b.title = name; b.setAttribute("aria-label", name);
+    b.style.background = sk.fur;
+    b.setAttribute("aria-pressed", String(i === 0));
+    b.addEventListener("click", () => {
+      studioSkin = Object.assign({}, sk);
+      earsEl.value = sk.ears || 1;
+      swEl.querySelectorAll(".sw").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    });
+    swEl.appendChild(b);
+  });
+  earsEl.addEventListener("input", () => { studioSkin.ears = parseFloat(earsEl.value); });
+  document.getElementById("random").addEventListener("click", () => {
+    studioSkin = skinFrom(Math.random(), 0.3 + Math.random() * 0.65, 0.5 + Math.random() * 0.47, parseFloat(earsEl.value), Math.random() < 0.3);
+    swEl.querySelectorAll(".sw").forEach((x) => x.setAttribute("aria-pressed", "false"));
+  });
+  function renderStudio(t) {
+    const { ctx, w, h } = fitCanvas(studioCv);
+    ctx.clearRect(0, 0, w, h);
+    ctx.fillStyle = "#cfdac6";
+    ctx.beginPath(); ctx.ellipse(w / 2, h * 1.18, w * 0.75, h * 0.42, 0, 0, TAU); ctx.fill();
+    const s = min(w / 230, h / 120);
+    const phase = Math.floor(t / 150) % 4;
+    let r;
+    if (phase === 0) r = rigStand(t, { ph: t * 0.22, walk: 1 });
+    else if (phase === 1) { r = rigSit(t); r.look = [0.7, -0.3]; }
+    else if (phase === 2) { r = rigSit(t, { wag: 0.4, wagSpeed: 0.5 }); r.eyes = "happy"; }
+    else r = rigStand(t, { ph: t * 0.42, walk: 1, run: true });
+    if (r.eyes === "open" && t % 95 < 4) r.eyes = "closed";
+    drawFox(ctx, r, studioSkin, w * 0.55, h * 0.84, s);
+  }
+
+  // ------------------------------------------------------------ Schleife (30 Bilder/s wie in der App)
+  const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let t = 0, acc = 0, last = performance.now();
+  function frame(now) {
+    acc += min(200, now - last); last = now;
+    let stepped = false;
+    while (acc >= 33) {
+      acc -= 33; t += 1; stepped = true;
+      pointer.still++;
+      if (pointer.still > 2) pointer.speed = 0;
+      tick();
+    }
+    if (stepped || t === 0) {
+      renderStage(t);
+      renderCards(reduce ? 0 : t);
+      renderStudio(reduce ? 0 : t);
+    }
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+
+  // ------------------------------------------------------------ Download
+  document.querySelectorAll(".js-download").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const st = btn.parentElement.querySelector(".js-status");
+      if (st) st.textContent = "Download startet … danach Desktop-Fuchs.exe doppelklicken.";
+      say("♥");
+    });
+  });
+})();
+
+</script>
+</body>
+</html>
