@@ -4,7 +4,7 @@ Kleine Füchse für deinen Windows-Desktop: Sie laufen über den Bildschirm, sit
 
 ## Herunterladen
 
-**[⬇ Desktop-Fuchs.exe herunterladen](https://github.com/obimokenobix/desktop-fuchs/releases/latest/download/Desktop-Fuchs.exe)** (Windows 64-Bit, ca. 10 MB)
+**[⬇ Desktop-Fuchs.exe herunterladen](https://github.com/obimokenobix/desktop-fuchs/raw/main/Desktop-Fuchs.exe)** (Windows 64-Bit, ca. 10 MB)
 
 Webseite: https://obimokenobix.github.io/desktop-fuchs/
 
